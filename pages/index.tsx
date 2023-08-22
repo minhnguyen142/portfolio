@@ -76,14 +76,8 @@ export default function Home() {
         >
           What I love
         </Text>
-        <Container
-          display="flex"
-          justifyContent="center"
-        >
-          <Text
-            maxWidth="400px"
-            height="64"
-          >
+        <Container display="flex" justifyContent="center">
+          <Text maxWidth="400px">
             Chilling music, Drawing, Photography, Watching Anime
           </Text>
         </Container>
