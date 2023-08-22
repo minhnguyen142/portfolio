@@ -23,7 +23,7 @@ export default function SocialMedia() {
         flexDir="column"
       >
         <Link
-          href="https://www.google.com"
+          href="https://www.facebook.com/Hikari.13864"
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -41,7 +41,7 @@ export default function SocialMedia() {
           </Text>
         </Link>
         <Link
-          href="https://www.google.com"
+          href="https://www.instagram.com/minhnguyen14022k3"
           display="flex"
           alignItems="center"
           justifyContent="center"
