@@ -11,6 +11,7 @@ export default function Home() {
     <Container>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Mochizuki Hikari - Home</title>
+      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
       <Header />
 
       <Image src="/Pastel-pink-sky.jpg" width="100%" height="297px"></Image>

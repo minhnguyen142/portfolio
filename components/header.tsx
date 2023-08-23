@@ -31,8 +31,8 @@ export default function Header() {
       <Container>
         <Link
           href="/works"
-          mx="30"
           textDecoration="none"
+          mx="30"
           color="#9F7AEA"
           _hover={{ color: "#E4A5FF" }}
           transition="all 500ms"
