@@ -38,7 +38,7 @@ export default function Bio() {
           <Text>Started living in Hanoi</Text>
           <Text>Got IELTS 6.0 Certificate</Text>
           <Text>
-            Studying Computer Science program at <br /> Thuy Loi University
+            Studying Computer Science program <br /> at Thuy Loi University
           </Text>
         </Container>
       </Container>

@@ -15,7 +15,7 @@ export default function Header() {
     >
       <Link
         href="/"
-        fontSize="30"
+        fontSize="28"
         textDecoration="none"
         fontFamily="Cherry Bomb One, sans-serif"
         _hover={{
@@ -24,31 +24,30 @@ export default function Header() {
         transition="all 500ms"
         bg="linear-gradient(90deg, #FFE7CE, #FFAAC9, #E4A5FF)"
         bgClip="text"
+        textAlign="center"
       >
         Khủng Long 3 Sừng
       </Link>
 
       <Container>
         <Link
-          href="/works"
-          textDecoration="none"
-          mx="30"
-          color="#9F7AEA"
-          _hover={{ color: "#E4A5FF" }}
-          transition="all 500ms"
+          href="works"
+          width="fit-content"
+          display="flex"
+          textAlign="center"
+          textDecor="none"
           fontWeight="bold"
+          px="15"
+          py="2"
+          bg="linear-gradient(to right, #FFE7CE, #FFAAC9, #E4A5FF)"
+          bgClip="text"
+          fontFamily="Pacifico"
+          fontSize="25"
+          rounded="10"
+          transition="all 500ms"
+          _hover={{ opacity: "0.7" }}
         >
           Works
-        </Link>
-        <Link
-          href="/posts"
-          textDecoration="none"
-          color="#9F7AEA"
-          _hover={{ color: "#E4A5FF" }}
-          transition="all 500ms"
-          fontWeight="bold"
-        >
-          Posts
         </Link>
       </Container>
     </Container>

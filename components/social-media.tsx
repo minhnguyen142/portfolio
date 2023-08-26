@@ -45,7 +45,7 @@ export default function SocialMedia() {
           display="flex"
           alignItems="center"
           justifyContent="center"
-          mr="13.15rem"
+          mr="11.6rem"
           maxWidth="fit-content"
           _hover={{ bg: "lightcyan", borderRadius: "10" }}
           px="10"
@@ -55,7 +55,7 @@ export default function SocialMedia() {
         >
           <BsInstagram />
           <Text mx="10" fontWeight="bold">
-            @minhnguyen1402
+            @minhnguyen14022k3
           </Text>
         </Link>
       </Container>

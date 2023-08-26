@@ -1,5 +1,5 @@
 import "@/app/globals.css";
-import { Container, Image, Text } from "@chakra-ui/react";
+import { Container, Image, Text, Link } from "@chakra-ui/react";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import About from "@/components/about";
