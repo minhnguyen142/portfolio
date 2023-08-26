@@ -7,7 +7,7 @@ export default function Bio() {
         textDecoration="underline"
         justifyContent="center"
         display="flex"
-        mr="23.5rem"
+        mr="20rem"
         fontSize="20"
         height="10"
         fontWeight="bold"
@@ -16,7 +16,12 @@ export default function Bio() {
         Bio
       </Text>
 
-      <Container display="flex" justifyContent="center" lineHeight="1.5">
+      <Container
+        display="flex"
+        justifyContent="center"
+        lineHeight="1.5"
+        alignItems="center"
+      >
         <Container fontWeight="bold">
           <Text>2003</Text>
           <Text>2005</Text>
@@ -33,13 +38,11 @@ export default function Bio() {
           height="10.5rem"
         ></Container>
 
-        <Container>
+        <Container maxW="250">
           <Text>Born in Phu Ly, Ha Nam</Text>
           <Text>Started living in Hanoi</Text>
           <Text>Got IELTS 6.0 Certificate</Text>
-          <Text>
-            Studying Computer Science program <br /> at Thuy Loi University
-          </Text>
+          <Text>Studying Computer Science program at Thuy Loi University</Text>
         </Container>
       </Container>
     </Container>

@@ -8,11 +8,12 @@ export default function SocialMedia() {
         textDecoration="underline"
         justifyContent="center"
         display="flex"
-        mr="18.5rem"
+        mr="13rem"
         fontSize="20"
         height="10"
         fontWeight="bold"
         color="grey"
+        whiteSpace='nowrap'
       >
         Social Media
       </Text>
@@ -21,6 +22,7 @@ export default function SocialMedia() {
         justifyContent="center"
         display="flex"
         flexDir="column"
+        ml='5rem'
       >
         <Link
           href="https://www.facebook.com/Hikari.13864"

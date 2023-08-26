@@ -15,12 +15,11 @@ export default function Works() {
         textDecoration="underline"
         justifyContent="center"
         display="flex"
-        mr="23rem"
+        mr="17rem"
         fontSize="20"
         height="10"
         fontWeight="bold"
         color="grey"
-        width="auto"
       >
         Works
       </Text>
@@ -31,10 +30,10 @@ export default function Works() {
         </Text>
         <Container>
           <iframe
-            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fref%3Dembed_video%26v%3D1190572965147992&width=250&show_text=false&height=125&appId"
-            width="440"
-            height="220"
-            allow="fullscreen; autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Ffacebook.com%2Fvnu.connect%2Fvideos%2F1190572965147992%2F%3Fref%3Dembed_video&width=350&show_text=false&height=175&appId"
+            width="350"
+            height="175"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
           ></iframe>
           <Text>VNU Check</Text>
           <Text>A video discussing about students' life at the University</Text>
@@ -47,15 +46,30 @@ export default function Works() {
         </Text>
         <Container>
           <Container>
-            <Image src="/20230825_192430.jpg" width="800" height="400"></Image>
+            <Image
+              src="/20230825_192430.jpg"
+              width="800"
+              height="400"
+              rounded="10"
+            ></Image>
             <Text>Kuriyama Mirai (Beyond the Boundary)</Text>
           </Container>
           <Container my="50">
-            <Image src="/20230825_215811.jpg" width="600" height="300"></Image>
+            <Image
+              src="/20230825_215811.jpg"
+              width="500"
+              height="250"
+              rounded="10"
+            ></Image>
             <Text>Nishimiya Shouko (A Silent Voice)</Text>
           </Container>
           <Container>
-            <Image src="/20230825_215659.jpg" width="600" height="300"></Image>
+            <Image
+              src="/20230825_215659.jpg"
+              width="500"
+              height="250"
+              rounded="10"
+            ></Image>
             <Text>Kitashirakawa Tamako (Tamako Market, Tamako Love Story)</Text>
           </Container>
         </Container>
