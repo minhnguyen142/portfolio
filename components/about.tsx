@@ -24,8 +24,8 @@ export default function About() {
         <Text maxWidth="350px" textAlign="justify" alignItems="center">
           I'm a student who are currently following Computer Science program at
           Thuy Loi University. I'm also learning things about content creating
-          like drawing or video editing. I'm the person who don't want to be
-          constrained! Instead, I'd like to go with my passion and be creative
+          like drawing or video editing. I'm the person who is very comfortable
+          at work and wants to do my own creativity comfortably
         </Text>
       </Container>
     </Container>
